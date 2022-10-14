@@ -1,0 +1,27 @@
+Package: twopartm
+Type: Package
+Title: Two-Part Model with Marginal Effects
+Version: 0.1.0
+Authors@R: c(person("Yajie", "Duan", email = "yajieritaduan@gmail.com", role = c("aut","cre")),
+  person("Birol", "Emir", email = "birol.emir@pfizer.com", role = "aut"),
+  person("Griffith", "Bell", email = "griffith.bell@pfizer.com", role = "aut"),
+  person("Javier", "Cabrera", email = "cabrera@stat.rutgers.edu", role = "aut"),
+  person("Pfizer Inc.", role = c("cph", "fnd")))
+Maintainer: Yajie Duan <yajieritaduan@gmail.com>
+Description: Fit two-part regression models for zero-inflated data. The models and their components are represented using S4 classes and methods. Average Marginal effects and predictive margins with standard errors and
+  confidence intervals can be calculated from two-part model objects. Belotti, F., Deb, P., Manning, W. G., & Norton, E. C. (2015) <doi:10.1177/1536867X1501500102>.
+License: GPL (>= 2)
+Depends: R (>= 2.10)
+Imports: methods, graphics, stats, data.table, MASS
+Encoding: UTF-8
+LazyData: true
+Repository: CRAN
+NeedsCompilation: no
+RoxygenNote: 7.2.1
+Packaged: 2022-10-13 09:57:19 UTC; Yajie Duan
+Author: Yajie Duan [aut, cre],
+  Birol Emir [aut],
+  Griffith Bell [aut],
+  Javier Cabrera [aut],
+  Pfizer Inc. [cph, fnd]
+Date/Publication: 2022-10-14 08:50:02 UTC
